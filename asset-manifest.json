@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.d2036cfb.css",
+    "main.js": "/dashboard/static/js/main.58a6d0ac.js",
+    "static/js/453.45853c00.chunk.js": "/dashboard/static/js/453.45853c00.chunk.js",
+    "static/media/thiru.png": "/dashboard/static/media/thiru.adb70adec18eb884c140.png",
+    "index.html": "/dashboard/index.html",
+    "main.d2036cfb.css.map": "/dashboard/static/css/main.d2036cfb.css.map",
+    "main.58a6d0ac.js.map": "/dashboard/static/js/main.58a6d0ac.js.map",
+    "453.45853c00.chunk.js.map": "/dashboard/static/js/453.45853c00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2036cfb.css",
+    "static/js/main.58a6d0ac.js"
+  ]
+}

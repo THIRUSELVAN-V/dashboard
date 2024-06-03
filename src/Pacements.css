@@ -1,0 +1,60 @@
+.h1{
+    font-size: large;
+    font-weight: 500;
+    margin-top: 2%;
+}
+.pinfo1 {
+    float: left;
+    flex-direction: column;
+    width: 335px; 
+    height: 105px;
+    overflow-y: auto;
+    margin: 2%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+  .prv1{
+    margin-left: 4%;
+    text-align: left;
+    color: #6e6e6e;
+  }
+  .prv2{
+    margin-left: 4%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .ro2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .er{
+    display: block;
+  }
+
+  .t1{
+    font-size: larger;
+    font-weight: 500;
+  }
+  .pinfo2 {
+    float: left;
+    flex-direction: column;
+    width: 125px; 
+    height: 80px;
+    overflow-y: auto;
+    margin: 2%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    
+  }
+  .er{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    width: 1500px;
+  }
+  .bbox{
+    background-color: aqua;
+  }

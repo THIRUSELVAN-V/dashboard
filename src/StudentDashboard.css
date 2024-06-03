@@ -1,0 +1,235 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 97.4%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header div {
+    font-weight: bold;
+    cursor: pointer; /* Optional: make header sections clickable */
+  }
+  
+  .dashboard1 {
+    float: left;
+    flex-direction: column;
+    width: 408px; 
+    height: 300px;
+    overflow-y: auto;
+    margin: 2%;
+    
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+  .dashboard1::-webkit-scrollbar {
+    width: 8px; 
+    height: 10px; 
+  }
+  
+  .dashboard1::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  .dashboard1::-webkit-scrollbar-thumb {
+    background-color: #9500ff; 
+    border-radius: 5px;
+  }
+  
+  .dashboard1::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa; 
+  }
+  
+  .header1 {
+    display: flex;
+    align-items: start;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  .det{
+    align-items: start;
+    flex: 1 0 50%; 
+    text-align: left;
+    font-size: 115%;
+    
+  }
+  .student-photo {
+    width: 110px; 
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 15%;  
+  }
+  .sem{
+    font-size: 80%;
+    color: rgb(153, 152, 152);
+  }
+  .value1{
+    color: blueviolet;
+    font-weight: 600;
+  }
+  .value2{
+    margin-left: 4%;
+    text-align: left;
+  }
+ 
+  
+
+  .clock{
+    width: 50px;
+  height: 50px;
+  background-color: #01893a; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  }
+  .calendar{
+    width: 50px; 
+  height: 50px;
+  background-color: #fe9845; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  }
+ .header2 {
+    width: 130px;
+    display: flex;
+    align-items: start;
+  }
+  .header3 {
+    
+    width: 150px;
+    display: flex;
+    align-items: start;
+    margin-left: 20%;
+  }
+  .det2{
+    margin-left: 10%;
+    align-items: start;
+    flex: 1 0 50%; 
+    text-align: left;
+  }
+  .v1{
+    display: block;
+    font-size: 90%;
+    font-weight: 500;
+    padding-bottom: 4%;
+  }
+  .v2{
+    font-size: 140%;
+    font-weight: bolder;
+  }
+  
+.box1{
+    width: 400px;
+    display: flex;  
+}
+.bh2{
+    text-align: left;
+    font-size: larger;
+    font-weight: 500;
+}
+i{
+    color: white;
+    
+}
+.leave{
+    width: 50px; 
+  height: 50px;
+  background-color: #ff0000; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  }
+  .percent{
+    background-color: #b754fe;
+    width: 50px; 
+  height: 50px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  }
+  .chart-container {
+    width: 250px; 
+    margin-left: 10%; 
+    margin-top: 25%;
+    background-color: #f9f9f9;
+    padding: 10px; /* Optional: Add some padding */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  .top{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .info1 {
+    float: left;
+    flex-direction: column;
+    width: 225px; 
+    height: 100px;
+    overflow-y: auto;
+    margin: 2%;
+    
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+  .rv1{
+    margin-left: 4%;
+    text-align: left;
+    color: #6e6e6e;
+  }
+  .rv2{
+    margin-left: 4%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .info2 {
+    float: left;
+    flex-direction: column;
+    width: 550px; 
+    height: 250px;
+    overflow-y: auto;
+    margin: 2%;
+    
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+  .rv3{
+    display: flex;
+    align-items: start;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+  }
+  .x{
+    margin-top: 15%;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 3%;
+    background-color: #efefef;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .rv4{
+    font-weight: 600;
+    margin-top: 2%;
+  }
